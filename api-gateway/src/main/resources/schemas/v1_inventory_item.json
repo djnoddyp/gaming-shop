@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "manufacturer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "price": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "stockCount": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    }
+  }
+}
